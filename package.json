@@ -1,0 +1,53 @@
+{
+  "name": "tryio",
+  "version": "1.0.0",
+  "description": "A robust async helper to wrap promises and functions, returning [result, error] for graceful error handling.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./promises": {
+      "types": "./dist/promises.d.ts",
+      "default": "./dist/promises.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "error handling",
+    "try-catch",
+    "async-await",
+    "promise",
+    "error-first",
+    "tuple",
+    "result",
+    "utility",
+    "helper",
+    "robust",
+    "safer",
+    "typescript",
+    "node",
+    "clean code",
+    "exceptions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EllyBax/tryio.git"
+  },
+  "author": {
+    "email": "elly@jrdev.org",
+    "name": "Elly B"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
